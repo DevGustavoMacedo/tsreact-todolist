@@ -1,0 +1,36 @@
+.fade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 80%;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em 2em;
+}
+
+.modal form {
+  width: 90%;
+}
+
+.modal form input {
+  background-color: #202124;
+}
+
+.modal form input[type="submit"]:hover {
+  background-color: #202124;
+}
