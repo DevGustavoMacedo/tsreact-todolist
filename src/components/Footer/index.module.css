@@ -1,0 +1,25 @@
+.footer {
+  background-color: #282c34;
+  color: white;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span a {
+  color: #0f9d58;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+@media (max-width: 550px) {
+  .footer {
+    background-color: transparent;
+    font-size: 0.8em;
+    height: auto;
+    padding: 1em;
+  }
+}
