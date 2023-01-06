@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: #0f9d58;
+  height: 100px;
+  font-size: 1.4em;
+}
+
+@media (max-width: 550px) {
+  .header {
+    font-size: 1.2em;
+    height: 80px;
+  }
+}
